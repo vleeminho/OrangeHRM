@@ -9,6 +9,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
+import Utility.utilities;
+
 public class HomePage extends TestBase{
 	
 	//@FindBy(how=How.ID,using="welcome")  WebElement txtWelcome;
@@ -17,7 +19,7 @@ public class HomePage extends TestBase{
 	public void verifyValidLogin() {
 		try {
 			WebElement txtWelcome=driver.findElement(By.id("welcome"));
-			wait.until(ExpectedConditions.visibilityOf(txtWelcome));
+			utilities.waitForElementVisibility(txtWelcome);
 			String name=txtWelcome.getText();
 			System.out.println("Logged in User name is ::"+name);
 			
@@ -31,15 +33,15 @@ public class HomePage extends TestBase{
 	public void verifyAssignLeave() {
 		try {
 			WebElement lnkAssignLeave=driver.findElement(By.xpath("//span[text()='Assign Leave']"));
-			wait.until(ExpectedConditions.visibilityOf(lnkAssignLeave));
+			utilities.waitForElementVisibility(lnkAssignLeave);
 			lnkAssignLeave.click();
 			
 			WebElement btnAssign=driver.findElement(By.id("assignBtn"));
-			wait.until(ExpectedConditions.visibilityOf(btnAssign));
+			utilities.waitForElementVisibility(btnAssign);
 			String val=btnAssign.getAttribute("value");
 			System.out.println(val);
 			btnAssign.click();
-			Assert.assertTrue(val.contains("btn text"), "Assign Leave button text not valid");
+			Assert.assertTrue(val.contains("Assign"), "Assign Leave button text not valid");
 			
 		}catch (Exception e) {
 			e.printStackTrace();
