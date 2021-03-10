@@ -27,7 +27,13 @@ public class TestNGListener implements ITestListener {
 	
 	 @Override
 	 public void onTestFailure(ITestResult result) {
-		 
+		 //Object testClass=result.getInstance();
+		 WebDriver driver=TestBase.getDriverInstance();
+		 if(driver instanceof WebDriver) {
+			 saveScreenshot(driver);
+		 }
+	  
+		 saveTextLog(getTestMethodName(result)+"Failed and screenshot taken!"); 
 	  
 	 }
 
@@ -45,13 +51,6 @@ public class TestNGListener implements ITestListener {
 
 	 @Override
 	 public void onTestSuccess(ITestResult result) {
-		 //saveScreenshot(result.getName(),TestBase.driver);
-		 Object testClass=result.getInstance();
-		 WebDriver driver=TestBase.getDriverInstance();
-		 if(driver instanceof WebDriver) {
-			 saveScreenshot(driver);
-		 }
-	  
-		 saveTextLog(getTestMethodName(result)+"Passed and screenshot taken!");
+		 saveTextLog(getTestMethodName(result)+"Passed");
 	 }
 }

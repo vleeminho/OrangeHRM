@@ -4,12 +4,12 @@
     "uid" : "fa0ccf1a88a1305a8a77fd803e072e4b",
     "name" : "Allure-Reporting",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 2,
-      "passed" : 10,
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 13
+      "total" : 3
     }
   } ]
 }

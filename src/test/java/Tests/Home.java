@@ -40,5 +40,17 @@ public class Home extends TestBase{
 		Thread.sleep(9000);
 		home.verifyValidLogin();
 	}
+	
+	@Test(priority=2)
+	@Description("Verify Assign Leave")
+	@Epic(" Epic : Leave")
+	@Feature("Feature : Valid Assign Leave")
+	@Step("Steps : Navigate to Assign Leave and Verify Page")
+	@Severity(SeverityLevel.BLOCKER)
+	public void verifyAssignLeave() throws InterruptedException {
+		login.login();
+		Thread.sleep(9000);
+		home.verifyAssignLeave();
+	}
 
 }

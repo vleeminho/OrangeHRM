@@ -27,5 +27,24 @@ public class HomePage extends TestBase{
 		}
 		
 	}
+	
+	public void verifyAssignLeave() {
+		try {
+			WebElement lnkAssignLeave=driver.findElement(By.xpath("//span[text()='Assign Leave']"));
+			wait.until(ExpectedConditions.visibilityOf(lnkAssignLeave));
+			lnkAssignLeave.click();
+			
+			WebElement btnAssign=driver.findElement(By.id("assignBtn"));
+			wait.until(ExpectedConditions.visibilityOf(btnAssign));
+			String val=btnAssign.getAttribute("value");
+			System.out.println(val);
+			btnAssign.click();
+			Assert.assertTrue(val.contains("btn text"), "Assign Leave button text not valid");
+			
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
 
 }

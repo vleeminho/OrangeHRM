@@ -1,0 +1,126 @@
+{
+  "uid" : "ce889222102956b7",
+  "name" : "initializePageFactory",
+  "fullName" : "Tests.Home.initializePageFactory",
+  "historyId" : "cdd985dcace516e3627d06634f906649",
+  "time" : {
+    "start" : 1615362656388,
+    "stop" : 1615362656781,
+    "duration" : 393
+  },
+  "description" : "Login to Orange HRM",
+  "descriptionHtml" : "<p>Login to Orange HRM</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1615362650898,
+      "stop" : 1615362656279,
+      "duration" : 5381
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Login to Orange HRM",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "35242c339485d05",
+      "name" : "saveScreenshot",
+      "source" : "35242c339485d05.png",
+      "type" : "image/png",
+      "size" : 8744
+    }, {
+      "uid" : "a76479a8aaeb0bd5",
+      "name" : "initializePageFactoryFailed and screenshot taken!",
+      "source" : "a76479a8aaeb0bd5.txt",
+      "type" : "text/plain",
+      "size" : 49
+    }, {
+      "uid" : "c76dcef2db92f43c",
+      "name" : "initializePageFactoryPassed",
+      "source" : "c76dcef2db92f43c.txt",
+      "type" : "text/plain",
+      "size" : 27
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1615362656797,
+      "stop" : 1615362656875,
+      "duration" : 78
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "initializePageFactory"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Allure-Reporting"
+  }, {
+    "name" : "suite",
+    "value" : "Chrome-Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.Home"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-H4LHD4U"
+  }, {
+    "name" : "thread",
+    "value" : "10548@DESKTOP-H4LHD4U.TestNG-tests-1(14)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce889222102956b7.json",
+  "parameterValues" : [ "chrome" ]
+}
