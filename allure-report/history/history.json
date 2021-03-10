@@ -1,0 +1,252 @@
+{
+  "1e00300a624d6b5151c8e81b9291a7d3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "19a79b7d1c0d5f35",
+      "status" : "skipped",
+      "statusDetails" : "The path to the driver executable must be set by the webdriver.ie.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver. The latest version can be downloaded from http://selenium-release.storage.googleapis.com/index.html",
+      "time" : {
+        "start" : 1615355011911,
+        "stop" : 1615355011911,
+        "duration" : 0
+      }
+    } ]
+  },
+  "b27ffe5a3caea2dcf59ee660665adecb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c72e9d9351722",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615356891321,
+        "stop" : 1615356919980,
+        "duration" : 28659
+      }
+    } ]
+  },
+  "6624c9756432740ee43c936e6191821d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "58e1d370c93a95ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615355738268,
+        "stop" : 1615355787251,
+        "duration" : 48983
+      }
+    } ]
+  },
+  "229e79c2dda6ccecefdb6739d839e888" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bfca14e5798b613e",
+      "status" : "broken",
+      "statusDetails" : "The path to the driver executable must be set by the webdriver.ie.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver. The latest version can be downloaded from http://selenium-release.storage.googleapis.com/index.html",
+      "time" : {
+        "start" : 1615355011817,
+        "stop" : 1615355011817,
+        "duration" : 0
+      }
+    } ]
+  },
+  "cdd985dcace516e3627d06634f906649" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db0f8bf2076c4b24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615356885591,
+        "stop" : 1615356886025,
+        "duration" : 434
+      }
+    } ]
+  },
+  "427fe950a690fd3eb094213f5f612b5d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "11fb47a034603f7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615313122189,
+        "stop" : 1615313122211,
+        "duration" : 22
+      }
+    } ]
+  },
+  "6d8aa8297f836147e8e452317005aa3d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3696069fd7e1c19c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615353371878,
+        "stop" : 1615353397930,
+        "duration" : 26052
+      }
+    } ]
+  },
+  "ff45aad732d444a50b57ee043b8118b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4dad29a8309de35b",
+      "status" : "skipped",
+      "statusDetails" : "The path to the driver executable must be set by the webdriver.ie.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver. The latest version can be downloaded from http://selenium-release.storage.googleapis.com/index.html",
+      "time" : {
+        "start" : 1615355011832,
+        "stop" : 1615355011895,
+        "duration" : 63
+      }
+    } ]
+  },
+  "6ca197a6110876ddfe91c18657ff12c9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d42068e68750e4ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615353800211,
+        "stop" : 1615353800359,
+        "duration" : 148
+      }
+    } ]
+  },
+  "f10113e99c40f5a6f833a9258d996034" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "481c3f0c30c8652b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615313127327,
+        "stop" : 1615313153036,
+        "duration" : 25709
+      }
+    } ]
+  },
+  "548b3ea12528e015c8da32283290d52b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b55c6b3fae7daba0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615353811536,
+        "stop" : 1615353837814,
+        "duration" : 26278
+      }
+    } ]
+  },
+  "4ec988653d3ce5d2ad93026111533568" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7c3732b5c433e78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615355728686,
+        "stop" : 1615355728688,
+        "duration" : 2
+      }
+    } ]
+  },
+  "ff389450258705b9e6880c4de3918267" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b7b3ef1a00f89d04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615353365834,
+        "stop" : 1615353365898,
+        "duration" : 64
+      }
+    } ]
+  }
+}

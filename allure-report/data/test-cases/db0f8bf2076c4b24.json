@@ -1,0 +1,186 @@
+{
+  "uid" : "db0f8bf2076c4b24",
+  "name" : "initializePageFactory",
+  "fullName" : "Tests.Home.initializePageFactory",
+  "historyId" : "cdd985dcace516e3627d06634f906649",
+  "time" : {
+    "start" : 1615356885591,
+    "stop" : 1615356886025,
+    "duration" : 434
+  },
+  "description" : "Login to Orange HRM",
+  "descriptionHtml" : "<p>Login to Orange HRM</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1615356878271,
+      "stop" : 1615356885232,
+      "duration" : 6961
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Login to Orange HRM",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a41ae582b3dfe3e1",
+      "name" : "saveScreenshot",
+      "source" : "a41ae582b3dfe3e1.png",
+      "type" : "image/png",
+      "size" : 8744
+    }, {
+      "uid" : "6877d690289cd9b6",
+      "name" : "initializePageFactoryPassed and screenshot taken!",
+      "source" : "6877d690289cd9b6.txt",
+      "type" : "text/plain",
+      "size" : 49
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1615356886041,
+      "stop" : 1615356886379,
+      "duration" : 338
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "initializePageFactory"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Allure-Reporting"
+  }, {
+    "name" : "suite",
+    "value" : "Chrome-Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.Home"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-H4LHD4U"
+  }, {
+    "name" : "thread",
+    "value" : "17136@DESKTOP-H4LHD4U.TestNG-tests-1(14)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3583a5a1dabdac7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615356606765,
+        "stop" : 1615356606819,
+        "duration" : 54
+      }
+    }, {
+      "uid" : "1294b7ac95cf412",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615356436383,
+        "stop" : 1615356436809,
+        "duration" : 426
+      }
+    }, {
+      "uid" : "f8411fe076edde95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615355956151,
+        "stop" : 1615355956205,
+        "duration" : 54
+      }
+    }, {
+      "uid" : "6349ebe259aad6c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615355724721,
+        "stop" : 1615355724777,
+        "duration" : 56
+      }
+    }, {
+      "uid" : "f064dc6223cff7ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615355554687,
+        "stop" : 1615355554738,
+        "duration" : 51
+      }
+    }, {
+      "uid" : "9639c5dbba8cfd27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615355339308,
+        "stop" : 1615355340158,
+        "duration" : 850
+      }
+    }, {
+      "uid" : "53fc4b253fb4bce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615355150948,
+        "stop" : 1615355152740,
+        "duration" : 1792
+      }
+    }, {
+      "uid" : "22810a2154d0d158",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615355092118,
+        "stop" : 1615355094278,
+        "duration" : 2160
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db0f8bf2076c4b24.json",
+  "parameterValues" : [ "chrome" ]
+}

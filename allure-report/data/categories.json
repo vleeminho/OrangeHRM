@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "The path to the driver executable must be set by the webdriver.ie.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver. The latest version can be downloaded from http://selenium-release.storage.googleapis.com/index.html",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "bfca14e5798b613e",
+        "parentUid" : "d859696d2603d3f0f84239c3a73a5f48",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615355011817,
+          "stop" : 1615355011817,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "IE" ]
+      } ],
+      "uid" : "d859696d2603d3f0f84239c3a73a5f48"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

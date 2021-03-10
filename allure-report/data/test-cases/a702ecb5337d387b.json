@@ -1,0 +1,144 @@
+{
+  "uid" : "a702ecb5337d387b",
+  "name" : "login",
+  "fullName" : "Tests.Home.login",
+  "historyId" : "b27ffe5a3caea2dcf59ee660665adecb",
+  "time" : {
+    "start" : 1615356442123,
+    "stop" : 1615356471334,
+    "duration" : 29211
+  },
+  "description" : "Verify Welcome Message",
+  "descriptionHtml" : "<p>Verify Welcome Message</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1615356436928,
+      "stop" : 1615356442117,
+      "duration" : 5189
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Verify Welcome Message",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Steps : Verify valid user is logged in",
+      "time" : {
+        "start" : 1615356442138,
+        "stop" : 1615356470707,
+        "duration" : 28569
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "4e0cb7a81646af4f",
+      "name" : "saveScreenshot",
+      "source" : "4e0cb7a81646af4f.png",
+      "type" : "image/png",
+      "size" : 107986
+    }, {
+      "uid" : "f67ca01d954cd1a3",
+      "name" : "loginPassed and screenshot taken!",
+      "source" : "f67ca01d954cd1a3.txt",
+      "type" : "text/plain",
+      "size" : 33
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1615356471347,
+      "stop" : 1615356471402,
+      "duration" : 55
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Allure-Reporting"
+  }, {
+    "name" : "suite",
+    "value" : "Chrome-Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.Home"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-H4LHD4U"
+  }, {
+    "name" : "thread",
+    "value" : "16996@DESKTOP-H4LHD4U.TestNG-tests-1(14)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : " Epic : Home"
+  }, {
+    "name" : "feature",
+    "value" : "Feature : Valid Login"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a702ecb5337d387b.json",
+  "parameterValues" : [ "chrome" ]
+}

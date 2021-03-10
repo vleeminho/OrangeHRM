@@ -1,0 +1,1115 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-H4LHD4U",
+    "children" : [ {
+      "name" : "11948@DESKTOP-H4LHD4U.main(1)",
+      "children" : [ {
+        "name" : "initializePageFactory",
+        "uid" : "5df0e2e3cffe613b",
+        "parentUid" : "4245d923e030e877cffad56d919bb5f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615228283305,
+          "stop" : 1615228283852,
+          "duration" : 547
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "login",
+        "uid" : "4d0ac830fcf60a41",
+        "parentUid" : "4245d923e030e877cffad56d919bb5f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615228289176,
+          "stop" : 1615228314829,
+          "duration" : 25653
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4245d923e030e877cffad56d919bb5f4"
+    }, {
+      "name" : "15744@DESKTOP-H4LHD4U.TestNG-tests-1(14)",
+      "children" : [ {
+        "name" : "initializePageFactory",
+        "uid" : "f8411fe076edde95",
+        "parentUid" : "eb4ff1a553fce17df4bc2432dbd06b11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615355956151,
+          "stop" : 1615355956205,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "login",
+        "uid" : "83de2cab68b61234",
+        "parentUid" : "eb4ff1a553fce17df4bc2432dbd06b11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615355961840,
+          "stop" : 1615355989997,
+          "duration" : 28157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "eb4ff1a553fce17df4bc2432dbd06b11"
+    }, {
+      "name" : "12324@DESKTOP-H4LHD4U.main(1)",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "c7e17c43bb8e1aa8",
+        "parentUid" : "f60f68212400e615297e51cf56947405",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615303392553,
+          "stop" : 1615303421096,
+          "duration" : 28543
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "initializePageFactory",
+        "uid" : "d10f1ab00dd2b94a",
+        "parentUid" : "f60f68212400e615297e51cf56947405",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615303387085,
+          "stop" : 1615303387117,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f60f68212400e615297e51cf56947405"
+    }, {
+      "name" : "14824@DESKTOP-H4LHD4U.TestNG-tests-1(14)",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "d57a313495141f18",
+        "parentUid" : "3ebdecad6700e90c1b389387eb36d68c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615355414579,
+          "stop" : 1615355440612,
+          "duration" : 26033
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "initializePageFactory",
+        "uid" : "9639c5dbba8cfd27",
+        "parentUid" : "3ebdecad6700e90c1b389387eb36d68c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615355339308,
+          "stop" : 1615355340158,
+          "duration" : 850
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "3ebdecad6700e90c1b389387eb36d68c"
+    }, {
+      "name" : "4460@DESKTOP-H4LHD4U.main(1)",
+      "children" : [ {
+        "name" : "initializePageFactory",
+        "uid" : "3e1f96645bdb77c7",
+        "parentUid" : "86c638a768bb1a2b990887cb7ba4e076",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615272650742,
+          "stop" : 1615272651200,
+          "duration" : 458
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "login",
+        "uid" : "7bf7b8dde625c58b",
+        "parentUid" : "86c638a768bb1a2b990887cb7ba4e076",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615272656262,
+          "stop" : 1615272683454,
+          "duration" : 27192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86c638a768bb1a2b990887cb7ba4e076"
+    }, {
+      "name" : "11652@DESKTOP-H4LHD4U.main(1)",
+      "children" : [ {
+        "name" : "initializePageFactory",
+        "uid" : "559fc12527864cf8",
+        "parentUid" : "9dea58e73d4ea81d64172afb12e43f5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615203148626,
+          "stop" : 1615203148652,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9dea58e73d4ea81d64172afb12e43f5e"
+    }, {
+      "name" : "4676@DESKTOP-H4LHD4U.main(1)",
+      "children" : [ {
+        "name" : "initializePageFactory",
+        "uid" : "843000fbfb19791b",
+        "parentUid" : "4e272171c7f16c0a39d66db5511bec71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615301485803,
+          "stop" : 1615301486240,
+          "duration" : 437
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "login",
+        "uid" : "85161335dada7300",
+        "parentUid" : "4e272171c7f16c0a39d66db5511bec71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615301491843,
+          "stop" : 1615301518506,
+          "duration" : 26663
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e272171c7f16c0a39d66db5511bec71"
+    }, {
+      "name" : "3112@DESKTOP-H4LHD4U.main(1)",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "cf2c0ceb0b4252e",
+        "parentUid" : "4b0aa9270a6a1c635ef9965fe369e4ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615297286791,
+          "stop" : 1615297313190,
+          "duration" : 26399
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "initializePageFactory",
+        "uid" : "8f077dee8c449d",
+        "parentUid" : "4b0aa9270a6a1c635ef9965fe369e4ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615297281194,
+          "stop" : 1615297281240,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4b0aa9270a6a1c635ef9965fe369e4ed"
+    }, {
+      "name" : "412@DESKTOP-H4LHD4U.main(1)",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "156a6ede20ef3ecf",
+        "parentUid" : "a9a6eb63cbb337f6a9ecca25c73099fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615311128107,
+          "stop" : 1615311153217,
+          "duration" : 25110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "initializePageFactory",
+        "uid" : "d08fed16edfd238a",
+        "parentUid" : "a9a6eb63cbb337f6a9ecca25c73099fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615311122910,
+          "stop" : 1615311122926,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a9a6eb63cbb337f6a9ecca25c73099fe"
+    }, {
+      "name" : "10336@DESKTOP-H4LHD4U.main(1)",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "481c3f0c30c8652b",
+        "parentUid" : "4d3ec5d59a0ad1cee10d035ba8129118",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615313127327,
+          "stop" : 1615313153036,
+          "duration" : 25709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "initializePageFactory",
+        "uid" : "11fb47a034603f7b",
+        "parentUid" : "4d3ec5d59a0ad1cee10d035ba8129118",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615313122189,
+          "stop" : 1615313122211,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d3ec5d59a0ad1cee10d035ba8129118"
+    }, {
+      "name" : "17380@DESKTOP-H4LHD4U.main(1)",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "28be3f0e0e29467c",
+        "parentUid" : "4f6aa1fc1f79bd1a356d04c4360f0993",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615206705757,
+          "stop" : 1615206731814,
+          "duration" : 26057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "initializePageFactory",
+        "uid" : "fd9e2c4de97b7d5d",
+        "parentUid" : "4f6aa1fc1f79bd1a356d04c4360f0993",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615206698742,
+          "stop" : 1615206698817,
+          "duration" : 75
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4f6aa1fc1f79bd1a356d04c4360f0993"
+    }, {
+      "name" : "6312@DESKTOP-H4LHD4U.TestNG-tests-1(14)",
+      "children" : [ {
+        "name" : "initializePageFactory",
+        "uid" : "3583a5a1dabdac7c",
+        "parentUid" : "14167f09c42c31195d8f670b56a2e532",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615356606765,
+          "stop" : 1615356606819,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "login",
+        "uid" : "2211fc9a4b351fd8",
+        "parentUid" : "14167f09c42c31195d8f670b56a2e532",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615356612708,
+          "stop" : 1615356641126,
+          "duration" : 28418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "14167f09c42c31195d8f670b56a2e532"
+    }, {
+      "name" : "13840@DESKTOP-H4LHD4U.TestNG-tests-1(14)",
+      "children" : [ {
+        "name" : "initializePageFactory",
+        "uid" : "4dad29a8309de35b",
+        "parentUid" : "de9127bb5a7cf31036b8b9858f8e5d04",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1615355011832,
+          "stop" : 1615355011895,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "IE" ]
+      }, {
+        "name" : "setUp",
+        "uid" : "bfca14e5798b613e",
+        "parentUid" : "de9127bb5a7cf31036b8b9858f8e5d04",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615355011817,
+          "stop" : 1615355011817,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "IE" ]
+      }, {
+        "name" : "login",
+        "uid" : "19a79b7d1c0d5f35",
+        "parentUid" : "de9127bb5a7cf31036b8b9858f8e5d04",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1615355011911,
+          "stop" : 1615355011911,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "IE" ]
+      } ],
+      "uid" : "de9127bb5a7cf31036b8b9858f8e5d04"
+    }, {
+      "name" : "10548@DESKTOP-H4LHD4U.TestNG-tests-1(14)",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "7154009fe459de35",
+        "parentUid" : "bd1385a03fb894495876f3aa718eb17b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615355730556,
+          "stop" : 1615355750217,
+          "duration" : 19661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "initializePageFactory",
+        "uid" : "6349ebe259aad6c3",
+        "parentUid" : "bd1385a03fb894495876f3aa718eb17b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615355724721,
+          "stop" : 1615355724777,
+          "duration" : 56
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "login",
+        "uid" : "e3eac236f92454b4",
+        "parentUid" : "bd1385a03fb894495876f3aa718eb17b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615355750263,
+          "stop" : 1615355750263,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "bd1385a03fb894495876f3aa718eb17b"
+    }, {
+      "name" : "8264@DESKTOP-H4LHD4U.main(1)",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "7c0787f3f21e7e05",
+        "parentUid" : "99d8219feaff17cecc1fb756ac3c2044",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615310901424,
+          "stop" : 1615310926002,
+          "duration" : 24578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "initializePageFactory",
+        "uid" : "a22b349bdf937959",
+        "parentUid" : "99d8219feaff17cecc1fb756ac3c2044",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615310895853,
+          "stop" : 1615310895900,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "99d8219feaff17cecc1fb756ac3c2044"
+    }, {
+      "name" : "13744@DESKTOP-H4LHD4U.main(1)",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "dd1e68dd3d698323",
+        "parentUid" : "4f5900188a2e907d97644592c8c78ceb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615302930353,
+          "stop" : 1615302958811,
+          "duration" : 28458
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "initializePageFactory",
+        "uid" : "928acfcbb04f97fc",
+        "parentUid" : "4f5900188a2e907d97644592c8c78ceb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615302924529,
+          "stop" : 1615302925037,
+          "duration" : 508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4f5900188a2e907d97644592c8c78ceb"
+    }, {
+      "name" : "17136@DESKTOP-H4LHD4U.TestNG-tests-1(14)",
+      "children" : [ {
+        "name" : "initializePageFactory",
+        "uid" : "db0f8bf2076c4b24",
+        "parentUid" : "16cf99598e57c5666e6c63afa2b4940b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615356885591,
+          "stop" : 1615356886025,
+          "duration" : 434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "login",
+        "uid" : "3c72e9d9351722",
+        "parentUid" : "16cf99598e57c5666e6c63afa2b4940b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615356891321,
+          "stop" : 1615356919980,
+          "duration" : 28659
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "16cf99598e57c5666e6c63afa2b4940b"
+    }, {
+      "name" : "13176@DESKTOP-H4LHD4U.TestNG-tests-2(15)",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "365b82868d36853d",
+        "parentUid" : "5c5b37f756e2877a10d362d3a110d7f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615355568299,
+          "stop" : 1615355593504,
+          "duration" : 25205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      }, {
+        "name" : "initializePageFactory",
+        "uid" : "cb0c5232873346ea",
+        "parentUid" : "5c5b37f756e2877a10d362d3a110d7f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615355558843,
+          "stop" : 1615355558844,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      } ],
+      "uid" : "5c5b37f756e2877a10d362d3a110d7f5"
+    }, {
+      "name" : "4368@DESKTOP-H4LHD4U.TestNG-tests-2(15)",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "bb1f8fa9240c26ac",
+        "parentUid" : "f8b3234e6eaa46aadda0e203f28d2c9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615355251176,
+          "stop" : 1615355276617,
+          "duration" : 25441
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      }, {
+        "name" : "initializePageFactory",
+        "uid" : "15a761d919ebd732",
+        "parentUid" : "f8b3234e6eaa46aadda0e203f28d2c9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615355171372,
+          "stop" : 1615355172034,
+          "duration" : 662
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      } ],
+      "uid" : "f8b3234e6eaa46aadda0e203f28d2c9e"
+    }, {
+      "name" : "8476@DESKTOP-H4LHD4U.main(1)",
+      "children" : [ {
+        "name" : "initializePageFactory",
+        "uid" : "441c6d913691305d",
+        "parentUid" : "d8fbb207166d9f76c5fa75c264e2fdf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615296946574,
+          "stop" : 1615296947048,
+          "duration" : 474
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "login",
+        "uid" : "a8ba58980096dc6d",
+        "parentUid" : "d8fbb207166d9f76c5fa75c264e2fdf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615296952319,
+          "stop" : 1615296979052,
+          "duration" : 26733
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d8fbb207166d9f76c5fa75c264e2fdf1"
+    }, {
+      "name" : "14168@DESKTOP-H4LHD4U.main(1)",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "2713b460ff94e925",
+        "parentUid" : "85362365a7ae5dc6dd85e65d0a01700d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615304571399,
+          "stop" : 1615304596815,
+          "duration" : 25416
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "initializePageFactory",
+        "uid" : "66ce1102fd4e9dc3",
+        "parentUid" : "85362365a7ae5dc6dd85e65d0a01700d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615304566218,
+          "stop" : 1615304566251,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "85362365a7ae5dc6dd85e65d0a01700d"
+    }, {
+      "name" : "6988@DESKTOP-H4LHD4U.main(1)",
+      "children" : [ {
+        "name" : "initializePageFactory",
+        "uid" : "e99d6ad062f3fd58",
+        "parentUid" : "5d2a32318c6f35c917a15c85a62b52a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615312965037,
+          "stop" : 1615312965081,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "login",
+        "uid" : "73e39e4ddbdf1e04",
+        "parentUid" : "5d2a32318c6f35c917a15c85a62b52a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615312970286,
+          "stop" : 1615312998429,
+          "duration" : 28143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d2a32318c6f35c917a15c85a62b52a6"
+    }, {
+      "name" : "13404@DESKTOP-H4LHD4U.main(1)",
+      "children" : [ {
+        "name" : "initializePageFactory",
+        "uid" : "b55edf4ec0efffe5",
+        "parentUid" : "dc9162e2e21ca009edc7f7917bc57101",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615311741262,
+          "stop" : 1615311741285,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "login",
+        "uid" : "1f7a5fcb751dc013",
+        "parentUid" : "dc9162e2e21ca009edc7f7917bc57101",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615311746611,
+          "stop" : 1615311772886,
+          "duration" : 26275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dc9162e2e21ca009edc7f7917bc57101"
+    }, {
+      "name" : "14824@DESKTOP-H4LHD4U.TestNG-tests-2(15)",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "596dcd91264845d2",
+        "parentUid" : "79a315e9be3d74e5134c0cb6fa48b20e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615355419176,
+          "stop" : 1615355442144,
+          "duration" : 22968
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      }, {
+        "name" : "initializePageFactory",
+        "uid" : "f53b03cb6fef6278",
+        "parentUid" : "79a315e9be3d74e5134c0cb6fa48b20e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615355342745,
+          "stop" : 1615355409321,
+          "duration" : 66576
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      } ],
+      "uid" : "79a315e9be3d74e5134c0cb6fa48b20e"
+    }, {
+      "name" : "8404@DESKTOP-H4LHD4U.TestNG-tests-1(14)",
+      "children" : [ {
+        "name" : "initializePageFactory",
+        "uid" : "b7b3ef1a00f89d04",
+        "parentUid" : "92143ee85980e79bfa1f213bb177c6a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615353365834,
+          "stop" : 1615353365898,
+          "duration" : 64
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome" ]
+      }, {
+        "name" : "login",
+        "uid" : "3696069fd7e1c19c",
+        "parentUid" : "92143ee85980e79bfa1f213bb177c6a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615353371878,
+          "stop" : 1615353397930,
+          "duration" : 26052
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome" ]
+      } ],
+      "uid" : "92143ee85980e79bfa1f213bb177c6a8"
+    }, {
+      "name" : "4368@DESKTOP-H4LHD4U.TestNG-tests-1(14)",
+      "children" : [ {
+        "name" : "initializePageFactory",
+        "uid" : "53fc4b253fb4bce",
+        "parentUid" : "bb70cf65d129b1fb1a1a8e0dcf9fecf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615355150948,
+          "stop" : 1615355152740,
+          "duration" : 1792
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "login",
+        "uid" : "4b30ab139bd2547c",
+        "parentUid" : "bb70cf65d129b1fb1a1a8e0dcf9fecf5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615355161117,
+          "stop" : 1615355266784,
+          "duration" : 105667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "bb70cf65d129b1fb1a1a8e0dcf9fecf5"
+    }, {
+      "name" : "9736@DESKTOP-H4LHD4U.main(1)",
+      "children" : [ {
+        "name" : "initializePageFactory",
+        "uid" : "282eecff59be076d",
+        "parentUid" : "00a3ceb34d73a6b8e8880a53de297065",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615203593164,
+          "stop" : 1615203593184,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "login",
+        "uid" : "4aff37dcefc35fb2",
+        "parentUid" : "00a3ceb34d73a6b8e8880a53de297065",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615203598231,
+          "stop" : 1615203623136,
+          "duration" : 24905
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "00a3ceb34d73a6b8e8880a53de297065"
+    }, {
+      "name" : "4500@DESKTOP-H4LHD4U.main(1)",
+      "children" : [ {
+        "name" : "initializePageFactory",
+        "uid" : "fdbe021cf706f7f9",
+        "parentUid" : "053ae1c6102b0b87f9b006c682a89496",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615203505697,
+          "stop" : 1615203505715,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "login",
+        "uid" : "cb3c09e66d45de17",
+        "parentUid" : "053ae1c6102b0b87f9b006c682a89496",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615203511468,
+          "stop" : 1615203538076,
+          "duration" : 26608
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "053ae1c6102b0b87f9b006c682a89496"
+    }, {
+      "name" : "16808@DESKTOP-H4LHD4U.main(1)",
+      "children" : [ {
+        "name" : "initializePageFactory",
+        "uid" : "8aed1b0aa758a5cb",
+        "parentUid" : "40a1bc02490ff3eccd1f48042e8a60ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615203292749,
+          "stop" : 1615203292767,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "login",
+        "uid" : "205b8b5cc6d1c732",
+        "parentUid" : "40a1bc02490ff3eccd1f48042e8a60ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615203298154,
+          "stop" : 1615203323564,
+          "duration" : 25410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40a1bc02490ff3eccd1f48042e8a60ef"
+    }, {
+      "name" : "12332@DESKTOP-H4LHD4U.TestNG-tests-2(15)",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "31279352d9199b8a",
+        "parentUid" : "7ba7e4bbac5ed4694bd8fcabead3e539",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615355190521,
+          "stop" : 1615355213879,
+          "duration" : 23358
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      }, {
+        "name" : "initializePageFactory",
+        "uid" : "587ac48b5a3b4cab",
+        "parentUid" : "7ba7e4bbac5ed4694bd8fcabead3e539",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615355097392,
+          "stop" : 1615355166373,
+          "duration" : 68981
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      } ],
+      "uid" : "7ba7e4bbac5ed4694bd8fcabead3e539"
+    }, {
+      "name" : "16996@DESKTOP-H4LHD4U.TestNG-tests-1(14)",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "a702ecb5337d387b",
+        "parentUid" : "b0cf1886682b68cbb50dfac3ef2e19cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615356442123,
+          "stop" : 1615356471334,
+          "duration" : 29211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "initializePageFactory",
+        "uid" : "1294b7ac95cf412",
+        "parentUid" : "b0cf1886682b68cbb50dfac3ef2e19cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615356436383,
+          "stop" : 1615356436809,
+          "duration" : 426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "b0cf1886682b68cbb50dfac3ef2e19cc"
+    }, {
+      "name" : "13176@DESKTOP-H4LHD4U.TestNG-tests-1(14)",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "c668c9ebb013f4f4",
+        "parentUid" : "90826443453a805735471a8b37a135de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615355560384,
+          "stop" : 1615355571868,
+          "duration" : 11484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "login",
+        "uid" : "3fb1364de3d82a45",
+        "parentUid" : "90826443453a805735471a8b37a135de",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615355571904,
+          "stop" : 1615355571907,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "initializePageFactory",
+        "uid" : "f064dc6223cff7ce",
+        "parentUid" : "90826443453a805735471a8b37a135de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615355554687,
+          "stop" : 1615355554738,
+          "duration" : 51
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "90826443453a805735471a8b37a135de"
+    }, {
+      "name" : "10548@DESKTOP-H4LHD4U.TestNG-tests-2(15)",
+      "children" : [ {
+        "name" : "initializePageFactory",
+        "uid" : "e7c3732b5c433e78",
+        "parentUid" : "37f9c5e51347e1e311d8f7ad8b2ea7bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615355728686,
+          "stop" : 1615355728688,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      }, {
+        "name" : "login",
+        "uid" : "58e1d370c93a95ac",
+        "parentUid" : "37f9c5e51347e1e311d8f7ad8b2ea7bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615355738268,
+          "stop" : 1615355787251,
+          "duration" : 48983
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      } ],
+      "uid" : "37f9c5e51347e1e311d8f7ad8b2ea7bd"
+    }, {
+      "name" : "12332@DESKTOP-H4LHD4U.TestNG-tests-1(14)",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "95df32cc109593b8",
+        "parentUid" : "62f1cb813e91757fb7c701a4c1845d4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615355184439,
+          "stop" : 1615355211083,
+          "duration" : 26644
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "initializePageFactory",
+        "uid" : "22810a2154d0d158",
+        "parentUid" : "62f1cb813e91757fb7c701a4c1845d4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615355092118,
+          "stop" : 1615355094278,
+          "duration" : 2160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "62f1cb813e91757fb7c701a4c1845d4c"
+    }, {
+      "name" : "6548@DESKTOP-H4LHD4U.TestNG-tests-1(14)",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "b55c6b3fae7daba0",
+        "parentUid" : "f5f4f642256c115118e798d6be56801b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615353811536,
+          "stop" : 1615353837814,
+          "duration" : 26278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Firefox" ]
+      }, {
+        "name" : "initializePageFactory",
+        "uid" : "d42068e68750e4ad",
+        "parentUid" : "f5f4f642256c115118e798d6be56801b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615353800211,
+          "stop" : 1615353800359,
+          "duration" : 148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Firefox" ]
+      } ],
+      "uid" : "f5f4f642256c115118e798d6be56801b"
+    }, {
+      "name" : "12756@DESKTOP-H4LHD4U.main(1)",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "40739e54f2976749",
+        "parentUid" : "e2b407ac17c1e4209d5de1b08fd89c1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615296828789,
+          "stop" : 1615296854802,
+          "duration" : 26013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "initializePageFactory",
+        "uid" : "4bc9b37669644c57",
+        "parentUid" : "e2b407ac17c1e4209d5de1b08fd89c1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615296822438,
+          "stop" : 1615296822576,
+          "duration" : 138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e2b407ac17c1e4209d5de1b08fd89c1c"
+    } ],
+    "uid" : "bf4d8a587969345d16f398910e86a819"
+  } ]
+}
