@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
 
+import Pages.TestBase;
+
 public class ReadPropertyFile {
 	public static String filePath= System.getProperty("user.dir") + "\\Common.properties";
 	public static File file=new File(filePath);
@@ -51,6 +53,18 @@ public class ReadPropertyFile {
 			throw e;
 		}
 		return password;
+	}
+	
+	public static String readTestSuiteDirectory() throws Exception {
+		String testsuitedirectory="";
+		try {
+			fis=new FileInputStream(file);
+			prop.load(fis);
+			testsuitedirectory=prop.getProperty("testSuiteDirectory");
+		} catch (Exception e) {
+			throw e;
+		}
+		return testsuitedirectory;
 	}
 	
 }

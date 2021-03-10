@@ -4,7 +4,7 @@
 <listeners>
 <listener class-name="Utility.TestNGListener"></listener>
 </listeners>
-  <test name="Chrome-Test">
+  <test name="Home">
   <parameter name="browser" value="chrome"></parameter>
     <classes>
       <class name="Tests.Home"/>

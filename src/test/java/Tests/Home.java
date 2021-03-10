@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import Pages.HomePage;
 import Pages.LoginPage;
 import Pages.TestBase;
+import Utility.utilities;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -29,16 +30,29 @@ public class Home extends TestBase{
 	}
 	
 	
-	@Test(priority=1)
+	@Test(priority=1,enabled=false)
 	@Description("Verify Welcome Message")
 	@Epic(" Epic : Home")
 	@Feature("Feature : Valid Login")
 	@Step("Steps : Verify valid user is logged in")
 	@Severity(SeverityLevel.BLOCKER)
 	public void login() throws InterruptedException {
+		System.out.println("Test Method Data:: "+testData);
 		login.login();
-		Thread.sleep(9000);
+		utilities.waitForWebElement();
 		home.verifyValidLogin();
+	}
+	
+	@Test(priority=2)
+	@Description("Verify Assign Leave")
+	@Epic(" Epic : Leave")
+	@Feature("Feature : Valid Assign Leave")
+	@Step("Steps : Navigate to Assign Leave and Verify Page")
+	@Severity(SeverityLevel.BLOCKER)
+	public void verifyAssignLeave() throws InterruptedException {
+		login.login();
+		utilities.waitForWebElement();
+		home.verifyAssignLeave();
 	}
 
 }

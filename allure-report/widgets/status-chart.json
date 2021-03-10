@@ -1,131 +1,31 @@
 [ {
-  "uid" : "b55c6b3fae7daba0",
+  "uid" : "514207c188c2875",
   "name" : "login",
   "time" : {
-    "start" : 1615353811536,
-    "stop" : 1615353837814,
-    "duration" : 26278
+    "start" : 1615362976942,
+    "stop" : 1615363001993,
+    "duration" : 25051
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "3696069fd7e1c19c",
-  "name" : "login",
+  "uid" : "c92708b84557ddf7",
+  "name" : "initializePageFactory",
   "time" : {
-    "start" : 1615353371878,
-    "stop" : 1615353397930,
-    "duration" : 26052
+    "start" : 1615362971999,
+    "stop" : 1615362972046,
+    "duration" : 47
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b51b67cf3bb6a42b",
+  "name" : "verifyAssignLeave",
+  "time" : {
+    "start" : 1615363006921,
+    "stop" : 1615363036203,
+    "duration" : 29282
+  },
+  "status" : "failed",
   "severity" : "blocker"
-}, {
-  "uid" : "b7b3ef1a00f89d04",
-  "name" : "initializePageFactory",
-  "time" : {
-    "start" : 1615353365834,
-    "stop" : 1615353365898,
-    "duration" : 64
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "19a79b7d1c0d5f35",
-  "name" : "login",
-  "time" : {
-    "start" : 1615355011911,
-    "stop" : 1615355011911,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "blocker"
-}, {
-  "uid" : "4dad29a8309de35b",
-  "name" : "initializePageFactory",
-  "time" : {
-    "start" : 1615355011832,
-    "stop" : 1615355011895,
-    "duration" : 63
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "3c72e9d9351722",
-  "name" : "login",
-  "time" : {
-    "start" : 1615356891321,
-    "stop" : 1615356919980,
-    "duration" : 28659
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "11fb47a034603f7b",
-  "name" : "initializePageFactory",
-  "time" : {
-    "start" : 1615313122189,
-    "stop" : 1615313122211,
-    "duration" : 22
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "58e1d370c93a95ac",
-  "name" : "login",
-  "time" : {
-    "start" : 1615355738268,
-    "stop" : 1615355787251,
-    "duration" : 48983
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "bfca14e5798b613e",
-  "name" : "setUp",
-  "time" : {
-    "start" : 1615355011817,
-    "stop" : 1615355011817,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "db0f8bf2076c4b24",
-  "name" : "initializePageFactory",
-  "time" : {
-    "start" : 1615356885591,
-    "stop" : 1615356886025,
-    "duration" : 434
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e7c3732b5c433e78",
-  "name" : "initializePageFactory",
-  "time" : {
-    "start" : 1615355728686,
-    "stop" : 1615355728688,
-    "duration" : 2
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "481c3f0c30c8652b",
-  "name" : "login",
-  "time" : {
-    "start" : 1615313127327,
-    "stop" : 1615313153036,
-    "duration" : 25709
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "d42068e68750e4ad",
-  "name" : "initializePageFactory",
-  "time" : {
-    "start" : 1615353800211,
-    "stop" : 1615353800359,
-    "duration" : 148
-  },
-  "status" : "passed",
-  "severity" : "normal"
 } ]

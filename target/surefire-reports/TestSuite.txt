@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 44.525 s - in TestSuite
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 72.258 s <<< FAILURE! - in TestSuite
+verifyAssignLeave(Tests.Home)  Time elapsed: 26.373 s  <<< FAILURE!
+java.lang.AssertionError: Assign Leave button text not valid expected [true] but found [false]
+	at Tests.Home.verifyAssignLeave(Home.java:53)
+

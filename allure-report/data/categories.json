@@ -2,25 +2,25 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "The path to the driver executable must be set by the webdriver.ie.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver. The latest version can be downloaded from http://selenium-release.storage.googleapis.com/index.html",
+      "name" : "Assign Leave button text not valid expected [true] but found [false]",
       "children" : [ {
-        "name" : "setUp",
-        "uid" : "bfca14e5798b613e",
-        "parentUid" : "d859696d2603d3f0f84239c3a73a5f48",
-        "status" : "broken",
+        "name" : "verifyAssignLeave",
+        "uid" : "b51b67cf3bb6a42b",
+        "parentUid" : "529067c8c814a15e473b7a209c3f0967",
+        "status" : "failed",
         "time" : {
-          "start" : 1615355011817,
-          "stop" : 1615355011817,
-          "duration" : 0
+          "start" : 1615363006921,
+          "stop" : 1615363036203,
+          "duration" : 29282
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "IE" ]
+        "parameters" : [ "chrome" ]
       } ],
-      "uid" : "d859696d2603d3f0f84239c3a73a5f48"
+      "uid" : "529067c8c814a15e473b7a209c3f0967"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }
