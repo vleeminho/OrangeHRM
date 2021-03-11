@@ -1,107 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Allure-Reporting" duration-ms="70736" started-at="2021-03-10T13:42:37 IST" finished-at="2021-03-10T13:43:48 IST">
+  <suite name="Allure-Reporting" duration-ms="50314" started-at="2021-03-11T00:20:23 IST" finished-at="2021-03-11T00:21:13 IST">
     <groups>
     </groups>
-    <test name="Chrome-Test" duration-ms="70736" started-at="2021-03-10T13:42:37 IST" finished-at="2021-03-10T13:43:48 IST">
+    <test name="Home" duration-ms="50314" started-at="2021-03-11T00:20:23 IST" finished-at="2021-03-11T00:21:13 IST">
       <class name="Tests.Home">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Tests.Home@4fd4cae3]" name="setUp" is-config="true" duration-ms="5511" started-at="2021-03-10T13:42:37 IST" finished-at="2021-03-10T13:42:42 IST">
+        <test-method status="PASS" signature="readExcelWorkbook(org.testng.ITestContext)[pri:0, instance:Tests.Home@c65a5ef]" name="readExcelWorkbook" is-config="true" duration-ms="863" started-at="2021-03-11T00:20:23 IST" finished-at="2021-03-11T00:20:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@54107f42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readExcelWorkbook -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:Tests.Home@c65a5ef]" name="setUp" is-config="true" duration-ms="5564" started-at="2021-03-11T00:20:24 IST" finished-at="2021-03-11T00:20:30 IST">
           <params>
             <param index="0">
               <value>
                 <![CDATA[chrome]]>
               </value>
             </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void Tests.Home.initializePageFactory()]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@54107f42]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initializePageFactory()[pri:0, instance:Tests.Home@4fd4cae3]" name="initializePageFactory" duration-ms="50" started-at="2021-03-10T13:42:43 IST" finished-at="2021-03-10T13:42:43 IST">
+        <test-method status="PASS" signature="initializePageFactory()[pri:0, instance:Tests.Home@c65a5ef]" name="initializePageFactory" duration-ms="42" started-at="2021-03-11T00:20:30 IST" finished-at="2021-03-11T00:20:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializePageFactory -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.Home@4fd4cae3]" name="tearDown" is-config="true" duration-ms="64" started-at="2021-03-10T13:42:43 IST" finished-at="2021-03-10T13:42:43 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.Home@c65a5ef]" name="tearDown" is-config="true" duration-ms="145" started-at="2021-03-11T00:20:30 IST" finished-at="2021-03-11T00:20:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Tests.Home@4fd4cae3]" name="setUp" is-config="true" duration-ms="4649" started-at="2021-03-10T13:42:43 IST" finished-at="2021-03-10T13:42:47 IST">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:Tests.Home@c65a5ef]" name="setUp" is-config="true" duration-ms="4724" started-at="2021-03-11T00:20:30 IST" finished-at="2021-03-11T00:20:35 IST">
           <params>
             <param index="0">
               <value>
                 <![CDATA[chrome]]>
               </value>
             </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:1, instance:Tests.Home@4fd4cae3]" name="login" duration-ms="28658" started-at="2021-03-10T13:42:47 IST" finished-at="2021-03-10T13:43:16 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.Home@4fd4cae3]" name="tearDown" is-config="true" duration-ms="39" started-at="2021-03-10T13:43:16 IST" finished-at="2021-03-10T13:43:16 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Tests.Home@4fd4cae3]" name="setUp" is-config="true" duration-ms="4815" started-at="2021-03-10T13:43:16 IST" finished-at="2021-03-10T13:43:21 IST">
-          <params>
-            <param index="0">
+            <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[public void Tests.Home.verifyAssignLeave() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@54107f42]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyAssignLeave()[pri:2, instance:Tests.Home@4fd4cae3]" name="verifyAssignLeave" duration-ms="26361" started-at="2021-03-10T13:43:21 IST" finished-at="2021-03-10T13:43:47 IST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Assign Leave button text not valid expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Assign Leave button text not valid expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertTrue(Assert.java:43)
-at Pages.HomePage.verifyAssignLeave(HomePage.java:42)
-at Tests.Home.verifyAssignLeave(Home.java:53)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="verifyAssignLeave()[pri:2, instance:Tests.Home@c65a5ef]" name="verifyAssignLeave" duration-ms="38582" started-at="2021-03-11T00:20:35 IST" finished-at="2021-03-11T00:21:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAssignLeave -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.Home@4fd4cae3]" name="tearDown" is-config="true" duration-ms="39" started-at="2021-03-10T13:43:48 IST" finished-at="2021-03-10T13:43:48 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.Home@c65a5ef]" name="tearDown" is-config="true" duration-ms="49" started-at="2021-03-11T00:21:13 IST" finished-at="2021-03-11T00:21:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Tests.Home -->
-    </test> <!-- Chrome-Test -->
+    </test> <!-- Home -->
   </suite> <!-- Allure-Reporting -->
 </testng-results>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="72.258" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="51.674" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.242.08\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2379037453288323379.tmp"/>
+    <property name="classworlds.conf" value="D:\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7494905507850226699.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.242.08\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/AdoptOpenJDK/jdk-8.0.242.08/bin/../jre/bin/server;C:/Program Files/AdoptOpenJDK/jdk-8.0.242.08/bin/../jre/bin;C:/Program Files/AdoptOpenJDK/jdk-8.0.242.08/bin/../jre/lib/amd64;C:\Program Files\AdoptOpenJDK\jdk-8.0.242.08\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\AdoptOpenJDK\jdk-8.0.242.08\bin;C:\Program Files\Maven\apache-maven-3.6.3\bin;C:\Program Files\Notepad++;C:\Program Files\Perforce\;C:\Program Files\Perforce;C:\allure-commandline-2.13.8\allure-2.13.8\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Vrushali\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\openjdk11\jdk-11\bin;;D:\Tools\eclipse-java-oxygen-3a-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,20 +60,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="initializePageFactory" classname="Tests.Home" time="0.053"/>
-  <testcase name="login" classname="Tests.Home" time="28.658"/>
-  <testcase name="verifyAssignLeave" classname="Tests.Home" time="26.373">
-    <failure message="Assign Leave button text not valid expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Assign Leave button text not valid expected [true] but found [false]
-	at Tests.Home.verifyAssignLeave(Home.java:53)
-</failure>
-    <system-out><![CDATA[Assign
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 44084
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Mar 10, 2021 1:43:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
+  <testcase name="initializePageFactory" classname="Tests.Home" time="0.047"/>
+  <testcase name="verifyAssignLeave" classname="Tests.Home" time="38.582"/>
 </testsuite>

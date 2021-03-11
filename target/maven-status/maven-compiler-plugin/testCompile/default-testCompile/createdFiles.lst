@@ -2,7 +2,10 @@ Utility\TestNGListener.class
 Tests\TestNGAllureReport.class
 Tests\Test.class
 Utility\ReadPropertyFile.class
+Utility\CONSTANT.class
 Pages\TestBase.class
 Pages\LoginPage.class
+Utility\ExcelUtils.class
 Pages\HomePage.class
 Tests\Home.class
+Utility\utilities.class

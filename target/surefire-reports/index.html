@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Allure_Reporting">
-              <span class="suite-name border-failed">Allure-Reporting</span>
+              <span class="suite-name border-passed">Allure-Reporting</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Allure_Reporting" class="hide-methods failed suite-Allure_Reporting"> (hide)</a> <!-- hide-methods failed suite-Allure_Reporting -->
-                      <a href="#" panel-name="suite-Allure_Reporting" class="show-methods failed suite-Allure_Reporting"> (show)</a> <!-- show-methods failed suite-Allure_Reporting -->
-                    </span>
-                    <div class="method-list-content failed suite-Allure_Reporting">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Allure_Reporting" title="Tests.Home" hash-for-method="verifyAssignLeave">verifyAssignLeave</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Allure_Reporting -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -121,7 +107,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Allure_Reporting" title="Tests.Home" hash-for-method="login">login</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Allure_Reporting" title="Tests.Home" hash-for-method="verifyAssignLeave">verifyAssignLeave</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Allure_Reporting -->
@@ -136,31 +122,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Allure_Reporting" class="panel Allure_Reporting">
-          <div class="suite-Allure_Reporting-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Tests.Home</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyAssignLeave">
-                  </a> <!-- verifyAssignLeave -->
-                  <span class="method-name">verifyAssignLeave</span>
-                  <div class="stack-trace">java.lang.AssertionError: Assign Leave button text not valid expected [true] but found [false]
-	at Pages.HomePage.verifyAssignLeave(HomePage.java:42)
-	at Tests.Home.verifyAssignLeave(Home.java:53)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 21 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Allure_Reporting-class-failed -->
           <div class="suite-Allure_Reporting-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -176,9 +137,9 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
+                  <a name="verifyAssignLeave">
+                  </a> <!-- verifyAssignLeave -->
+                  <span class="method-name">verifyAssignLeave</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -196,12 +157,12 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;Utility.TestNGListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Chrome-Test&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Home&quot; parallel=&quot;tests&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Tests.Home&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Chrome-Test --&gt;
+  &lt;/test&gt; &lt;!-- Home --&gt;
 &lt;/suite&gt; &lt;!-- Allure-Reporting --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -213,7 +174,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Chrome-Test (1 class)</span>
+                <span class="test-name">Home (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -239,24 +200,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login')
+data.setCell(0, 1, 'verifyAssignLeave')
 data.setCell(0, 2, 'Tests.Home')
-data.setCell(0, 3, 28658);
+data.setCell(0, 3, 38582);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyAssignLeave')
+data.setCell(1, 1, 'initializePageFactory')
 data.setCell(1, 2, 'Tests.Home')
-data.setCell(1, 3, 26361);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'initializePageFactory')
-data.setCell(2, 2, 'Tests.Home')
-data.setCell(2, 3, 50);
+data.setCell(1, 3, 42);
 window.suiteTableData['Allure_Reporting']= { tableData: data, tableDiv: 'times-div-Allure_Reporting'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 50 seconds</span>
               <div id="times-div-Allure_Reporting">
               </div> <!-- times-div-Allure_Reporting -->
             </div> <!-- times-div -->
@@ -271,9 +228,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Allure_Reporting" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.Home</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Allure_Reporting" class="panel">
@@ -283,43 +247,33 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.Home</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(chrome)</span>
+              <div class="configuration-test before">
+                <span class="method-name">readExcelWorkbook(org.testng.TestRunner@54107f42)</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void Tests.Home.initializePageFactory(), org.testng.TestRunner@54107f42)</span>
+                <span class="method-start">902 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">initializePageFactory</span>
-                <span class="method-start">5618 ms</span>
+                <span class="method-start">6490 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">5697 ms</span>
+                <span class="method-start">6606 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">5768 ms</span>
+                <span class="method-name">setUp(chrome, public void Tests.Home.verifyAssignLeave() throws java.lang.InterruptedException, org.testng...)</span>
+                <span class="method-start">6753 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">10417 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">39079 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">39118 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">verifyAssignLeave</span>
-                <span class="method-start">43933 ms</span>
+                <span class="method-start">11480 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">70639 ms</span>
+                <span class="method-start">50066 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
